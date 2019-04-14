@@ -1,0 +1,183 @@
+.et_pb_before_after {
+  position: relative; }
+  .et_pb_before_after:not(.style-4):not(.style-5).fade.after .before-after-before {
+    opacity: 0; }
+  .et_pb_before_after:not(.style-4):not(.style-5).slide-horizontally .before-after-after {
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -o-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    transform: translateX(100%); }
+  .et_pb_before_after:not(.style-4):not(.style-5).slide-horizontally.after .before-after-before {
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    transform: translateX(-100%); }
+  .et_pb_before_after:not(.style-4):not(.style-5).slide-horizontally.after .before-after-after {
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -o-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    transform: translateX(0%); }
+  .et_pb_before_after:not(.style-4):not(.style-5).slide-vertically .before-after-after {
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    transform: translateY(-100%); }
+  .et_pb_before_after:not(.style-4):not(.style-5).slide-vertically.after .before-after-before {
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -o-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    transform: translateY(100%); }
+  .et_pb_before_after:not(.style-4):not(.style-5).slide-vertically.after .before-after-after {
+    -webkit-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    -o-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    transform: translateY(0%); }
+  .et_pb_before_after.style-1 .before-after-before,
+  .et_pb_before_after.style-1 .before-after-after {
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s; }
+  .et_pb_before_after.style-2 .before-after-images {
+    cursor: pointer; }
+    .et_pb_before_after.style-2 .before-after-images .before-after-before,
+    .et_pb_before_after.style-2 .before-after-images .before-after-after {
+      -o-transition: 0.5s;
+      -ms-transition: 0.5s;
+      -moz-transition: 0.5s;
+      -webkit-transition: 0.5s;
+      transition: 0.5s; }
+  .et_pb_before_after.style-3 .before-after-before,
+  .et_pb_before_after.style-3 .before-after-after {
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s; }
+  .et_pb_before_after.style-3 .before-after-toggle {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+    .et_pb_before_after.style-3 .before-after-toggle li {
+      position: relative;
+      float: left;
+      padding: 7px 10px;
+      font-weight: bold;
+      background: #fff;
+      cursor: pointer; }
+      .et_pb_before_after.style-3 .before-after-toggle li.active {
+        background: #1086e9;
+        color: #fff;
+        cursor: default;
+        padding: 10px 10px;
+        top: -3px; }
+      .et_pb_before_after.style-3 .before-after-toggle li:first-of-type {
+        -webkit-border-radius: 4px 0 0 4px;
+        -moz-border-radius: 4px 0 0 4px;
+        border-radius: 4px 0 0 4px; }
+        .et_pb_before_after.style-3 .before-after-toggle li:first-of-type.active {
+          border-right: 1px solid rgba(0, 0, 0, 0.2); }
+      .et_pb_before_after.style-3 .before-after-toggle li:last-of-type {
+        -webkit-border-radius: 0 4px 4px 0;
+        -moz-border-radius: 0 4px 4px 0;
+        border-radius: 0 4px 4px 0; }
+        .et_pb_before_after.style-3 .before-after-toggle li:last-of-type.active {
+          border-left: 1px solid rgba(0, 0, 0, 0.2); }
+  .et_pb_before_after.style-4 .before-after-images .before-after-before {
+    width: 50%; }
+  .et_pb_before_after.style-4 .before-after-images .before-after-resize {
+    height: 100%;
+    width: 50%; }
+    .et_pb_before_after.style-4 .before-after-images .before-after-resize .ui-resizable-handle.ui-resizable-e {
+      width: 8px;
+      right: -4px; }
+      .et_pb_before_after.style-4 .before-after-images .before-after-resize .ui-resizable-handle.ui-resizable-e:before {
+        content: '\2c'; }
+  .et_pb_before_after.style-5 .before-after-images .before-after-before {
+    height: 50%; }
+  .et_pb_before_after.style-5 .before-after-images .before-after-resize {
+    width: 100%;
+    height: 50%; }
+    .et_pb_before_after.style-5 .before-after-images .before-after-resize .ui-resizable-handle.ui-resizable-s {
+      height: 8px;
+      bottom: -4px; }
+      .et_pb_before_after.style-5 .before-after-images .before-after-resize .ui-resizable-handle.ui-resizable-s:before {
+        content: '\29'; }
+  .et_pb_before_after.style-4 .before-after-images .before-after-before, .et_pb_before_after.style-5 .before-after-images .before-after-before {
+    overflow: hidden; }
+    .et_pb_before_after.style-4 .before-after-images .before-after-before .before-after-label, .et_pb_before_after.style-5 .before-after-images .before-after-before .before-after-label {
+      right: auto;
+      left: 15px; }
+  .et_pb_before_after.style-4 .before-after-images .before-after-resize, .et_pb_before_after.style-5 .before-after-images .before-after-resize {
+    position: absolute;
+    top: 0;
+    left: 0; }
+    .et_pb_before_after.style-4 .before-after-images .before-after-resize .ui-resizable-handle.ui-resizable-e, .et_pb_before_after.style-4 .before-after-images .before-after-resize .ui-resizable-handle.ui-resizable-s, .et_pb_before_after.style-5 .before-after-images .before-after-resize .ui-resizable-handle.ui-resizable-e, .et_pb_before_after.style-5 .before-after-images .before-after-resize .ui-resizable-handle.ui-resizable-s {
+      background: #fff;
+      overflow: visible;
+      z-index: 100;
+      cursor: col-resize;
+      /* fallback if grab cursor is unsupported */
+      cursor: grab;
+      cursor: -moz-grab;
+      cursor: -webkit-grab; }
+      .et_pb_before_after.style-4 .before-after-images .before-after-resize .ui-resizable-handle.ui-resizable-e:before, .et_pb_before_after.style-4 .before-after-images .before-after-resize .ui-resizable-handle.ui-resizable-s:before, .et_pb_before_after.style-5 .before-after-images .before-after-resize .ui-resizable-handle.ui-resizable-e:before, .et_pb_before_after.style-5 .before-after-images .before-after-resize .ui-resizable-handle.ui-resizable-s:before {
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) ;
+        -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) ;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) ;
+        font-family: 'ETmodules' !important;
+        position: absolute;
+        display: block;
+        top: 50%;
+        left: 50%;
+        margin: -20px 0 0 -20px;
+        width: 40px;
+        height: 40px;
+        background: #fff;
+        color: #555;
+        font-size: 28px;
+        text-align: center;
+        line-height: 42px; }
+      .et_pb_before_after.style-4 .before-after-images .before-after-resize .ui-resizable-handle.ui-resizable-e:active, .et_pb_before_after.style-4 .before-after-images .before-after-resize .ui-resizable-handle.ui-resizable-s:active, .et_pb_before_after.style-5 .before-after-images .before-after-resize .ui-resizable-handle.ui-resizable-e:active, .et_pb_before_after.style-5 .before-after-images .before-after-resize .ui-resizable-handle.ui-resizable-s:active {
+        cursor: grabbing;
+        cursor: -moz-grabbing;
+        cursor: -webkit-grabbing; }
+  .et_pb_before_after .before-after-images {
+    position: relative;
+    overflow: hidden; }
+    .et_pb_before_after .before-after-images .before-after-before,
+    .et_pb_before_after .before-after-images .before-after-after {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%; }
+      .et_pb_before_after .before-after-images .before-after-before img,
+      .et_pb_before_after .before-after-images .before-after-after img {
+        vertical-align: bottom; }
+  .et_pb_before_after .before-after-label {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); }
+    .et_pb_before_after .before-after-label span:last-of-type {
+      display: none; }
+  .et_pb_before_after .before-after-caption {
+    text-align: center;
+    margin-top: 5px;
+    font-style: italic; }
