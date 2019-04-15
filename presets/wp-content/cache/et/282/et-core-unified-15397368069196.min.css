@@ -1,6 +1,5 @@
 h1,h2,h3,h4,h5,h6 {
  color:#333333
-font-family: 'Roboto', sans-serif;
 }
 body {
  line-height:2em
@@ -181,7 +180,7 @@ div.et_pb_section.et_pb_section_0 {
  background-image:url(http://psychelabs.co/wp-content/uploads/2018/10/geometric-bg-overlay-01.jpg),linear-gradient(190deg,#39464e 0%,#0c1d25 100%)!important
 }
 .et_pb_text_21 h2 {
- font-family:'Nunito Sans',Helvetica,Arial,Lucida,sans-serif;
+ font-family:'Nunito Sans',Helvetica,Arial,Lucida,'Roboto', sans-serif;
  font-weight:700;
  font-size:24px;
  color:#535b7c!important;
